@@ -46,4 +46,14 @@ function adivinhacao() {
 
     document.getElementById("resultado").textContent = "Resultado: " + resposta;
     document.getElementById("tentativasRestantes").textContent = "Tentativas Restantes: " + numeroTentativas;
+
+    // Ocultar botão se o jogador acertar ou acabar as tentativas
+
+    if (palpiteJogador === numeroAleatorio) {
+        document.getElementById("chute").style.display = "none";
+    }
+    else if (numeroTentativas === 0) {
+        document.getElementById("chute").style.display = "none";
+        document.getElementById("resultado").textContent = "Suas tentativas acabaram! o numero era: " + numeroAleatorio + ". recarregue a pagina para tentar novamente";
+    }
 }
