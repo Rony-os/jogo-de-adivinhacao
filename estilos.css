@@ -1,0 +1,81 @@
+/*Reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+
+body {
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #dbdbff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/*Header*/
+
+header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    color: #333;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 30px;
+}
+
+header li {
+    color: #0c0c0c;
+    font-size: 20px;
+}
+
+/*Main*/
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #558f50;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.418);
+}
+
+button:hover {
+    background-color: #4e8f92;
+}
+
+p {
+    font-size: 14px;
+    color: #333;
+}
